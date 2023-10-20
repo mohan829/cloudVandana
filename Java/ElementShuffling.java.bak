@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Arrays;
+
+class ElementShuffling
+{
+	public static void main(String[] args) 
+	{
+		int[] myArray ={1,2,3,4,5,60};
+		List<Integer> myList = new ArrayList<Integer>(Arrays.asList(myArray));
+		Collections.shuffle(myList);
+		System.out.println(myList);
+		}
+}
